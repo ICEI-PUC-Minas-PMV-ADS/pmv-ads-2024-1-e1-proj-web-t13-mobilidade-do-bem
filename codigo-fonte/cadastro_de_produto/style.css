@@ -37,9 +37,8 @@
     list-style: none;
     
 }
-#pesquisa
-{
-    margin-left: 7%;
+#barra_pesquisa {
+  margin-left: 7%;
 
 }
 .login-icon

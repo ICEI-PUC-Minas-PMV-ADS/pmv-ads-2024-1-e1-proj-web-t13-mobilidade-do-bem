@@ -26,8 +26,9 @@ body{
     list-style: none;
     
 }
-#pesquisa{
+#barra_pesquisa {
     margin-left: 7%;
+    
 }
 .login-icon{
     margin-left: 6%;
