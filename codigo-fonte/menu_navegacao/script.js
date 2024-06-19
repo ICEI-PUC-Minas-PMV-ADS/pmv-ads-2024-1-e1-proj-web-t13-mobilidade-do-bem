@@ -44,7 +44,7 @@ function naoLogado()
 {
     var usuario = JSON.parse(localStorage.getItem('logging'))
 
-    if(!usuario )
+    if(!usuario || usuario.conectado == false )
         {
             window.location.href="../pagina_login/index.html"
         }
