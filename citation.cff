@@ -1,0 +1,23 @@
+message: Please cite this software using these metadata.
+title: Mobilidade do bem
+authors:	
+  - family-names: Gabriel Neres Alexandre
+    given-names: Nicolas
+  - family-names: Moreira Pinto
+    given-names: Leticia
+  - family-names: Paula Moreira Pinto
+    given-names: Daiane
+  - family-names: de Oliveira Santos
+    given-names: Marcela
+  - family-names: Flausino Rocha
+    given-names: Junio
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Nepomuceno Curto
+    given-names: Hayala
+keywords:	
+  - Equipamentos de mobilidade
+  - Gestão
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t13-mobilidade-do-bem
+version: 1.0.0
+date-released: 2023-06-23
