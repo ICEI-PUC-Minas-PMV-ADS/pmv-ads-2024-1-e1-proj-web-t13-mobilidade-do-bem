@@ -1,15 +1,6 @@
-# Apresentação do Projeto
+Apresentação de Slides
+[Mobilidade-do-Bem 1.pdf](https://github.com/user-attachments/files/15946356/Mobilidade-do-Bem.1.pdf)
 
-## Conjunto de Slides
-
-A apresentação do projeto consiste na geração de um conjunto de slides em um arquivo no formato ppt, pptx ou pdf, contemplando os seguintes itens:
-
-> - Contexto (Problema, Público-alvo)
-> - Requisitos
-> - Solução Implementada (funcionalidades de software)
-> - Conclusão da elaboração do projeto (pontos positivos, desafios, aprendizado).
-
-[Adicione pdf de apresentação.]
 
 > **Links Úteis**:
 > - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
