@@ -2,19 +2,23 @@ function verificarCampos() {
     var titulo = document.getElementById('cad-titulo').value;
     var categoria = document.getElementById('cad-categoria').value;
     var modalidade = document.getElementById('cad-modalidade').value;
+    var cidade = document.getElementById('cad-cidade').value;
+    var estado = document.getElementById('cad-estado').value;
     var tempo = document.getElementById('cad-tempo').value;
     var resumo = document.getElementById('cad-resumo').value;
     var imagem = document.getElementById('cad-imagem').value;
 
-    if (titulo === "" || categoria === "null" || modalidade === "null" || tempo === "" || resumo === "" || imagem === "") {
+    if (titulo === "" || categoria === "null" || modalidade === "null" || cidade === "" || estado === "null" || tempo === "" || resumo === "" || imagem === "") {
       alert("Por favor, preencha todos os campos.");
     } else {
       let ListaRegistro = {
         titulo : titulo,
         categoria : categoria,
         modalidade : modalidade,
+        cidade: cidade,
+        estado: estado,
         tempo : tempo,
-        resumo :resumo,
+        resumo : resumo,
         imagem : imagem
       };
 
@@ -31,6 +35,8 @@ function verificarCampos() {
     document.getElementById('cad-titulo').value = "";
     document.getElementById('cad-categoria').value = "null";
     document.getElementById('cad-modalidade').value = "null";
+    document.getElementById('cad-cidade').value = "";
+    document.getElementById('cad-estado').value = "null";
     document.getElementById('cad-tempo').value = "";
     document.getElementById('cad-resumo').value = "";
     document.getElementById('cad-imagem').value = "";

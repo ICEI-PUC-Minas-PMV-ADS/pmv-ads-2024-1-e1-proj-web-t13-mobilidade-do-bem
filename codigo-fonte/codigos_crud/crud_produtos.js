@@ -47,7 +47,9 @@ function buscarUmProduto(pesquisa) {
 
   if (buscaProdutos) {
     var registroEncontrado = buscaProdutos.filter((elemento) => 
-      elemento.titulo.toUpperCase() == pesquisa.toUpperCase()
+      elemento.cidade.toUpperCase() == pesquisa.toUpperCase() ||
+      elemento.titulo.toUpperCase() == pesquisa.toUpperCase() ||
+      elemento.estado.toUpperCase() == pesquisa.toUpperCase()
     );
 
     if (registroEncontrado.length) {
