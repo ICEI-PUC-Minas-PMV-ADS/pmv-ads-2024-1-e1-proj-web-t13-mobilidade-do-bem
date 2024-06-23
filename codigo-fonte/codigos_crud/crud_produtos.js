@@ -46,7 +46,7 @@ function buscarUmProduto(pesquisa) {
   var buscaProdutos = JSON.parse(localStorage.getItem("Produtos"));
 
   if (buscaProdutos) {
-    var registroEncontrado = buscaProdutos.filter((elemento) => 
+    var registroEncontrado = produtos.filter((elemento) => 
       elemento.cidade.toUpperCase() == pesquisa.toUpperCase() ||
       elemento.titulo.toUpperCase() == pesquisa.toUpperCase() ||
       elemento.estado.toUpperCase() == pesquisa.toUpperCase()
