@@ -48,7 +48,8 @@ body {
 }
 
 .card-img-top {
-    width: 80%;
+    width: 150px;
+    height: 150px;
     border-radius: 80%;
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
@@ -64,11 +65,15 @@ body {
 
 .card-title {
     font-family: josefin sans;
-
     color: rgb(255, 255, 255);
 }
+.card-title:hover {
+    font-family: josefin sans;
+    color: #0056b3;
+    text-decoration: none;
+}
 
-h1 {
+h1{
     background-color: rgb(115, 37, 224);
     color: rgb(255, 255, 255);
     font-family: josefin sans;
