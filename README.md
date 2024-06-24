@@ -41,7 +41,7 @@ Hayala Nepomuceno Curto
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+<a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t13-mobilidade-do-bem/codigo-fonte/pagina_inicial/index.html">Link do site</a>
 
 # Código-Fonte
 
